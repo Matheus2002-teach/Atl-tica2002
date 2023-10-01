@@ -1,0 +1,80 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #5073C3;
+    --cor-secundaria: ;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Syncopate', sans-serif;
+    --fonte-padrao: Arial, Helvetica, sans-serif; 
+  }
+
+.nav-item .nav-link:focus,
+.nav-item .nav-link:hover {
+  color: #5073C3;
+}
+
+header{
+    padding-bottom: 100px;
+}
+body{
+    font-family: var(--fonte-principal);    
+}
+
+
+.titulo{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria) ;    
+}
+
+.back-azul{
+    background: #5073C3;
+}
+
+.back-branco{
+    background-color: white;
+}
+
+.back-padrao{
+    background-color: #5073c3;
+    background-image: url(/frontend/assets/panteraoFundo.png);
+    background-size: cover;   
+}
+
+.form-textbox{
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.cor-azul{
+    color: #5073C3;
+    font-weight: 900;
+}
+.cor-branco{
+    color: #fff;
+}
+.b-fix{
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    
+    
+}
+.backg-azul{
+    color: #0d6efd;
+}
+.backg-branco{
+    background-color:#fff;
+    height: 400px;
+}
+.text-side{
+    text-align: left;
+    font-size: large;
+    display: flex;
+
+}
+.cor-preto{
+    color: black;
+}
